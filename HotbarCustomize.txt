@@ -1,4 +1,4 @@
--hi skids
+
 
 local players = game:GetService("Players");
 local lplr = players.LocalPlayer;
