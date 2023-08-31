@@ -11722,21 +11722,21 @@ runFunction(function()
 	packselected = TexturePacks.CreateDropdown({
 		["Name"] = "Pack",
 		["Function"] = function() end,
-		["List"] = {"GlizzyPack", 
-		"FirstPack", "SecondPack", 
-		"ThirdPack", "FourthPack", 
-		"FifthPack", "SixthPack", 
-		"SeventhPack","EighthPack", 
-		"EgirlPack", "CottonCandy", 
-		"Pack512x", "Pack1056x",
-	    "PrivatePack", "DemonSlayerPack"}
+		["List"] = {"nig", 
+		"FirstPack", "a", 
+		"ThirdPack", "sogay", 
+		"FifthPack", "hawt", 
+		"SeventhPack","daddy", 
+		"EgirlPack", "cum", 
+		"Pack512x", "op",
+	    "PrivatePack", "kallanbigmoney"}
 	})
 end)
-local Messages = {"Imagine not using skid Client!", "EZ KILL!", "GET GOOD!", "Skid client!", "EZ!!", "Knock!", "Clapped!", "NoLifeIdiot!", "Asshole!", "BALLSHOT!", "Get beamed by Skid CLient", "CockShot!", "Get beamed!",  "Skid client on top!"}
+local Messages = {"INF", "INF", "INF", "INF"}
 local old
 local FunnyIndicator = {Enabled = false}
 FunnyIndicator = GuiLibrary.ObjectsThatCanBeSaved.WorldWindow.Api.CreateOptionsButton({
-Name = "DamageIndicators",
+Name = "INF Damage",
 Function = function(Callback)
 	FunnyIndicator.Enabled = Callback
 	if FunnyIndicator.Enabled then
@@ -11746,7 +11746,7 @@ Function = function(Callback)
 				spawn(function()
 					pcall(function()
 						obj.Parent.Text = Messages[math.random(1, #Messages)]
-						obj.Parent.TextColor3 = Color3.fromHSV(tick() % 10 / 10, 2, 2)
+						obj.Parent.TextColor3 = Color3.fromHSV(tick() % 0 / 0, 100, 100)
 					end)
 				end)
 				return game:GetService("TweenService"):Create(obj, ...)
