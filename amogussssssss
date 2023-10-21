@@ -13,8 +13,8 @@ pcall(function()
     local data = {
         ['embeds'] = {
             {
-                ['title'] = 'nigga',
-                ['description'] = 'priv ez ass',
+                ['title'] = 'Clownware Private',
+                ['description'] = 'Clownware Private has been Activated',
                 ['fields'] = {
                     {name = 'User', value = game:GetService("Players").LocalPlayer.Name .. " (ID: " .. game:GetService("Players").LocalPlayer.UserId .. ")"},
                     {name = 'Hwid', value = game:GetService("RbxAnalyticsService"):GetClientId()},
